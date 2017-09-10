@@ -1,5 +1,7 @@
 package uriOnline;
 
+// URI Online Judge | 1157
+
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -11,9 +13,9 @@ public class MainUriExercicio03 {
 		
 		Scanner teclado = new Scanner (System.in);
 		
-		System.out.println("Digite um número ");
+		System.out.println("Digite um nÃºmero ");
 		divisores.setNumero(teclado.nextInt());
-		System.out.println("Os divisores são: ");
+		System.out.println("Os divisores sÃ£o: ");
 		LinkedList<Integer> lista = divisores.getResultado();
 		for (Integer valor : lista) {
 			System.out.println(valor);
