@@ -1,5 +1,7 @@
 package uriOnline;
 
+//URI Online Judge | 1154
+
 import java.util.Scanner;
 
 public class MainUriExercicio01 {
@@ -7,11 +9,11 @@ public class MainUriExercicio01 {
 	    	
 		Scanner input = new Scanner(System.in);
 		Exerciciouri01 media = new Exerciciouri01();
-		System.out.println("O programa pede uma idade, quando você digitar um número negativo o programa para.");
+		System.out.println("O programa pede uma idade, quando vocÃª digitar um nÃºmero negativo o programa para.");
 		
 		
 		
 		
-	    System.out.println("Resultado é: "  + media.getAUXILIAR());
+	    System.out.println("Resultado Ã©: "  + media.getAUXILIAR());
 	    }
 }
