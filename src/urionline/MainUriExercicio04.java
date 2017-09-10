@@ -1,5 +1,8 @@
 package uriOnline;
 
+// URI Online Judge | 1165
+
+
 import java.util.Scanner;
 
 public class MainUriExercicio04 {
@@ -10,7 +13,7 @@ public class MainUriExercicio04 {
 		System.out.print("Digite o numero: ");
 		entrada.setNumero(teclado.nextInt());
 		System.out.println(entrada.mensagem());
-		System.out.println(entrada.ÈPrimo());
+		System.out.println(entrada.√©Primo());
 	}
 
 }
