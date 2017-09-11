@@ -13,6 +13,7 @@ public class Exercicio00 {
 	}
 
 	public String getAUXILIAR() {
+		StringBuilder builder = new StringBuilder();
 		
 		for (int i = 0; i < frase.length(); i++) {
 			
@@ -28,8 +29,9 @@ public class Exercicio00 {
 				 elemento = (char) 96;
 			}
 			elemento = (char) (elemento + 3);
-			System.out.print(elemento);			
+			builder.append(elemento);
+			//System.out.print(elemento);			
 		}
-		return AUXILIAR;
+		return builder.toString();
 	}
 }
