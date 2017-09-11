@@ -1,6 +1,6 @@
 package intermediario;
 
-public class Exercicio00OLD {
+public class Exercicio00 {
 	
 	String frase, AUXILIAR;
 		
