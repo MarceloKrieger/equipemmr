@@ -17,8 +17,7 @@ public class TestExercicio9 {
 		final int CORRETO1 = 0;
 		Exercicio09 saque = new Exercicio09();
 		saque.setValorSaque(125);
-		double resultado = (int) saque.getAUXILIAR();
 	}
-
 }
+
 
