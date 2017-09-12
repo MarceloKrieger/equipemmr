@@ -1,5 +1,10 @@
 package intermediario;
 
+/**
+ * Transforma uma frase para seu equivalente na cifra de César
+ * @author marcelo.krieger
+ *
+ */
 public class Exercicio00 {
 	
 	String frase, AUXILIAR;
@@ -8,10 +13,18 @@ public class Exercicio00 {
 		return frase;
 	}
 
+	/**
+	 * Frase original
+	 * @param frase
+	 */
 	public void setFrase(String frase) {
 		this.frase = frase;
 	}
 
+	/**
+	 * Frase criptografada
+	 * @return
+	 */
 	public String getAUXILIAR() {
 		StringBuilder builder = new StringBuilder();
 		
