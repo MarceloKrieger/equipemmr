@@ -12,6 +12,5 @@ public class MainExercicio04 {
 		System.out.print("Digite um número inteiro e positivo: "); 
 		binario.setEntrada(teclado.nextInt());
 			System.out.print( binario.getDecimalParaBinario());
-		
 	}
 }
