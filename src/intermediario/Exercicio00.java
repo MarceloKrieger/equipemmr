@@ -29,8 +29,7 @@ public class Exercicio00 {
 				 elemento = (char) 96;
 			}
 			elemento = (char) (elemento + 3);
-			builder.append(elemento);
-			//System.out.print(elemento);			
+			builder.append(elemento);			
 		}
 		return builder.toString();
 	}
